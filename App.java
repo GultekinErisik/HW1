@@ -3,23 +3,14 @@ import java.util.ArrayList;
 public class App {
 
     public static void main(String[] args) {
-        // Example usage of the method
-        ArrayList<Integer> list1 = new ArrayList<>();
-        list1.add(1);
-        list1.add(2);
+        AppTest tester = new AppTest();
+        tester.test1();
+        tester.test2();
+        tester.test3();
+        tester.test4();
+        tester.test5();
+        tester.test6();
 
-        ArrayList<Integer> list2 = new ArrayList<>();
-        list2.add(3);
-        list2.add(4);
-
-        int intValue1 = 5;
-        int intValue2 = 6;
-
-        // Calling the method
-        int result = customMethod(list1, list2, intValue1, intValue2);
-
-        // Displaying the result
-        System.out.println("Result: " + result);
     }
 
     public static int customMethod(ArrayList<Integer> list1, ArrayList<Integer> list2, int intValue1, int intValue2) {
@@ -38,3 +29,4 @@ public class App {
         return sum;
     }
 }
+
